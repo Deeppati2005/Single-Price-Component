@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Karla", sans-serif;
+  list-style: none;
+  border: none;
+}
+
+body {
+  background-color: yellow;
+}
+
+.container {
+  height: 550px;
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first-container {
+  background-color: white;
+  height: 40%;
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.first-container h2 {
+  color: rgb(33, 168, 168);
+  padding-left: 30px;
+  padding-top: 38px;
+}
+
+.first-container h3 {
+  padding-top: 25px;
+  padding-left: 30px;
+  color: rgb(123, 232, 14);
+}
+
+.first-container p {
+  padding-left: 30px;
+  padding-top: 18px;
+  color: hsl(218, 22%, 67%);
+}
+
+.lower-container {
+  height: 92%;
+  display: flex;
+}
+
+.sec-container {
+  background-color: hsl(179, 50%, 43%);
+  height: 55%;
+  width: 50%;
+  border-bottom-left-radius: 7px;
+}
+
+.sec-container h3 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price-value h1 {
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 35px;
+}
+
+.price-validity p {
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: hsl(204, 43%, 93%);
+}
+
+.sec-container .access {
+  padding-top: 10px;
+  padding-left: 30px;
+  color: white;
+}
+
+.btn {
+  height: 40px;
+  width: 80%;
+  margin-top: 36px;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(123, 232, 14);
+  font-size: 18px;
+}
+
+.thi-container {
+  background-color: hsl(179, 62%, 43%);
+  height: 55%;
+  width: 50%;
+  border-bottom-right-radius: 7px;
+}
+
+.thi-container h3 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.list {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.list ul li {
+  padding-bottom: 3px;
+  color: hsl(204, 43%, 93%);
+}
