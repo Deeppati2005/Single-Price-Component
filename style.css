@@ -10,29 +10,40 @@
 
 body {
   background-color: hsl(206, 47%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-  height: 550px;
-  width: 700px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 600px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+}
+
+.first-container,
+.sec-container,
+.thi-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .first-container {
   background-color: white;
-  height: 40%;
-  width: 100%;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  padding-bottom: 2rem;
 }
 
 .first-container h2 {
   color: rgb(33, 168, 168);
   padding-left: 30px;
-  padding-top: 38px;
+  padding-top: 15px;
 }
 
 .first-container h3 {
@@ -44,25 +55,24 @@ body {
 .first-container p {
   padding-left: 30px;
   padding-top: 18px;
+  padding-right: 40px;
   color: hsl(218, 22%, 67%);
 }
 
 .lower-container {
-  height: 92%;
   display: flex;
 }
 
 .sec-container {
-  background-color: hsl(179, 61%, 44%);
-  height: 55%;
   width: 50%;
+  background-color: hsl(179, 61%, 44%);
   border-bottom-left-radius: 7px;
 }
 
 .sec-container h3 {
   color: white;
-  padding-top: 50px;
-  padding-left: 30px;
+  padding-top: 30px;
+  padding-left: 15px;
 }
 
 .price {
@@ -73,7 +83,7 @@ body {
 .price-value h1 {
   color: white;
   padding-top: 20px;
-  padding-left: 30px;
+  padding-left: 15px;
   font-size: 35px;
 }
 
@@ -86,37 +96,36 @@ body {
 
 .sec-container .access {
   padding-top: 10px;
-  padding-left: 30px;
+  padding-left: 15px;
   color: white;
 }
 
 .btn {
-  height: 40px;
-  width: 80%;
+  height: 48px;
+  width: 85%;
   margin-top: 36px;
-  margin-left: 30px;
+  margin-left: 15px;
   border-radius: 5px;
   color: white;
   background-color: rgb(123, 232, 14);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .thi-container {
-  background-color: hsl(179, 62%, 43%);
-  height: 55%;
   width: 50%;
+  background-color: hsl(179, 62%, 43%);
   border-bottom-right-radius: 7px;
 }
 
 .thi-container h3 {
   color: white;
-  padding-top: 50px;
-  padding-left: 30px;
+  padding-top: 30px;
+  padding-left: 15px;
 }
 
 .list {
-  padding-top: 20px;
-  padding-left: 30px;
+  padding-top: 35px;
+  padding-left: 15px;
 }
 
 .list ul li {
