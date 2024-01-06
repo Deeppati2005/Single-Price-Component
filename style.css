@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
 .first-container,
 .sec-container,
 .thi-container {
-  padding-left: 2rem;
+  padding-left: 20px;
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -42,21 +43,22 @@ body {
 
 .first-container h2 {
   color: rgb(33, 168, 168);
-  padding-left: 30px;
+  padding-left: 15px;
   padding-top: 15px;
 }
 
 .first-container h3 {
   padding-top: 25px;
-  padding-left: 30px;
+  padding-left: 15px;
   color: rgb(123, 232, 14);
 }
 
 .first-container p {
-  padding-left: 30px;
+  padding-left: 15px;
   padding-top: 18px;
   padding-right: 40px;
   color: hsl(218, 22%, 67%);
+  line-height: 25px; 
 }
 
 .lower-container {
@@ -98,11 +100,12 @@ body {
   padding-top: 10px;
   padding-left: 15px;
   color: white;
+  font-size: 15px;
 }
 
 .btn {
   height: 48px;
-  width: 85%;
+  width: 100%;
   margin-top: 36px;
   margin-left: 15px;
   border-radius: 5px;
@@ -143,12 +146,24 @@ body {
     margin: 0 10px;
   }
 
+  .first-container {
+    padding-left: 16px;
+    padding-right: 15px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .first-container h2 {
+    font-size: 22px;
+  }
+
   .first-container h3 {
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 15px;
   }
 
   .first-container p {
+    font-size: 15px;
     padding-right: 0;
   }
 
@@ -158,19 +173,17 @@ body {
 
   .sec-container,
   .thi-container {
+    padding-left: 16px;
     width: 100%;
+  }
+
+  .price-validity p {
+    padding-left: 10px;
   }
 
   .thi-container {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-  }
-
-  .first-container,
-  .sec-container,
-  .thi-container .btn {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .first-container h2,
@@ -179,9 +192,12 @@ body {
     padding-left: 0;
   }
 
+  .list {
+    padding-left: 0px;
+  }
+
   .sec-container h3,
   .price-value h1,
-  .price-validity p,
   .sec-container .access,
   .list ul li {
     padding-left: 0;
@@ -192,11 +208,11 @@ body {
   }
 
   .thi-container h3 {
-    padding-left: 15px;
+    padding-left: 0px;
   }
 
   .btn {
     margin-left: 0;
-    width: 90%;
+    width: 102%;
   }
 }
