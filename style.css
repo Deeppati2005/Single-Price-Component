@@ -132,3 +132,71 @@ body {
   padding-bottom: 3px;
   color: hsl(204, 43%, 93%);
 }
+
+@media (max-width: 700px) {
+  body {
+    margin: 20px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .first-container h3 {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  .first-container p {
+    padding-right: 0;
+  }
+
+  .lower-container {
+    flex-direction: column;
+  }
+
+  .sec-container,
+  .thi-container {
+    width: 100%;
+  }
+
+  .thi-container {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+  .first-container,
+  .sec-container,
+  .thi-container .btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .first-container h2,
+  .first-container h3,
+  .first-container p {
+    padding-left: 0;
+  }
+
+  .sec-container h3,
+  .price-value h1,
+  .price-validity p,
+  .sec-container .access,
+  .list ul li {
+    padding-left: 0;
+  }
+
+  .sec-container {
+    border-radius: 0;
+  }
+
+  .thi-container h3 {
+    padding-left: 15px;
+  }
+
+  .btn {
+    margin-left: 0;
+    width: 90%;
+  }
+}
